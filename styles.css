@@ -19,3 +19,14 @@ html{
     max-width: 20rem;
     border-radius: 25%;
 }
+
+@media (max-width: 576px){
+    .imgProfile{
+        max-width: 22rem;
+    }
+
+    .mobileSize{
+        margin-bottom: 1.19rem;
+        font-size: 1.19rem;
+    }
+}
