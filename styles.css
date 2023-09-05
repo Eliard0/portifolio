@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 html{
     scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .fundo{
@@ -24,6 +30,22 @@ html{
     max-width: 40rem;
 }
 
+.iconLinkedin{
+    max-width: 7rem;
+}
+
+.iconGithub{
+    max-width: 4rem;
+}
+
+.iconWhatsapp{
+    max-width: 4rem;
+}
+
+.footer{
+    background: #000;
+}
+
 @media (max-width: 576px){
     .imgProfile{
         max-width: 22rem;
@@ -38,4 +60,7 @@ html{
         max-width: 23rem;
     }
     
+    .textoHistoria{
+        font-size: 12px;
+    }
 }
