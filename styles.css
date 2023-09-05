@@ -29,6 +29,17 @@ body{
 }
 
 .tamanhoImg{
+    animation: girar 19s linear infinite;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.0s;
+    transition: all 0.5s;
+    max-width: 40rem;
+}
+.tamanhoImg:hover{
+    animation: girar 13s linear infinite;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
     max-width: 40rem;
 }
 
@@ -58,11 +69,27 @@ body{
         font-size: 1.19rem;
     }
 
+    .textoHistoria{
+        font-size: 12px;
+    }
+
     .tamanhoImg{
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
         max-width: 23rem;
     }
     
-    .textoHistoria{
-        font-size: 12px;
+    .tamanhoImg:hover{
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        max-width: 23rem;
+    }
+}
+
+@keyframes girar {
+    to {
+        transform: rotate(360deg);
     }
 }
