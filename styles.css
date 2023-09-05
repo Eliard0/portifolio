@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.fundo{
+    background-color: #f8f8ff;
+}
+
+.imgProfile{
+    max-width: 34rem;
+}
+
+.inicioTecnologia{
+    background-color: #f8f8ff;
+    padding: 1rem 5rem 1rem 5rem;
+}
+
+.frasesMotivacaoIcon{
+    max-width: 20rem;
+    border-radius: 25%;
+}
