@@ -6,10 +6,8 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif !important;
-}
-
-.fundo{
-    background-color: #f8f8ff;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .imgProfile{
@@ -17,7 +15,6 @@ body{
 }
 
 .inicioTecnologia{
-    background-color: #f8f8ff;
     padding: 1rem 5rem 1rem 5rem;
 }
 
