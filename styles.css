@@ -20,6 +20,10 @@ html{
     border-radius: 25%;
 }
 
+.tamanhoImg{
+    max-width: 40rem;
+}
+
 @media (max-width: 576px){
     .imgProfile{
         max-width: 22rem;
@@ -29,4 +33,9 @@ html{
         margin-bottom: 1.19rem;
         font-size: 1.19rem;
     }
+
+    .tamanhoImg{
+        max-width: 23rem;
+    }
+    
 }
