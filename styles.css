@@ -26,8 +26,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.frasesMotivacaoIcon{
-    max-width: 20rem;
+.appIcon{
+    max-width: 17rem;
     border-radius: 25%;
 }
 
@@ -65,7 +65,7 @@ body{
 
 @media (max-width: 576px){
     .imgProfile{
-        max-width: 23rem;
+        max-width: 22rem;
     }
 
     .mobileSize{
