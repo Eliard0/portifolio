@@ -3,19 +3,32 @@
 
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 body{
     font-family: 'Poppins', sans-serif !important;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(92deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
 
+.ladoA{
+    height: 100%;
 }
 
 .imgProfile{
     max-width: 34rem;
+}
+
+.ladoB{
+    height: 46.5rem;
+    overflow-y: scroll;
+}
+
+.tamanhoSesaoLaboB{
+    height: 46.5rem
+}
+
+.marginTopTexto{
+    margin-top: 16rem;
 }
 
 .inicioTecnologia{
@@ -27,7 +40,7 @@ body{
 }
 
 .appIcon{
-    max-width: 17rem;
+    max-width: 15rem;
     border-radius: 25%;
 }
 
@@ -36,7 +49,7 @@ body{
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.0s;
     transition: all 0.5s;
-    max-width: 40rem;
+    max-width: 31rem;
 }
 
 .tamanhoImg:hover{
@@ -44,26 +57,32 @@ body{
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    max-width: 40rem;
+    max-width: 31rem; 
 }
 
 .iconLinkedin{
-    max-width: 7rem;
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .iconGithub{
-    max-width: 4rem;
+    color: #000;
+    font-size: 3rem;
 }
 
 .iconWhatsapp{
-    max-width: 4rem;
+    color: #8dff75;
+    font-size: 3rem;
 }
 
-.footer{
-    background: #000;
-}
 
 @media (max-width: 576px){
+
+    .ladoB{
+        display: none;
+    }
+
     .imgProfile{
         max-width: 22rem;
     }
